@@ -7,22 +7,19 @@
 	align-items:center;
 }
 #line{
-	position:absolute;
 	background-color:black;
 	width:200px;
 	height:2px;
-	margin:160px;
-	animation: line 2s linear infinite;
-	animation-direction:reverse;
+/* 	animation:rotate 1s linear; */
 }
-@keyframes line{
+@keyframes transform{
 	from
 	{
-	transform:rotate(360deg);
+	transform:rotate(0deg);
     }
 	to
 	{
-		transform:rotate(0deg);
+		transform:rotate(360deg);
 	}
 
 }
