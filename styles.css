@@ -9,11 +9,13 @@
 	animation-direction:reverse;
 }
 @keyframes line{
-	to{
-		transform:rotate(0deg);
-
-	}
-from{
+	from
+	{
 	transform:rotate(360deg);
-}
+    }
+	to
+	{
+		transform:rotate(0deg);
+	}
+
 }
