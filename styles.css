@@ -5,6 +5,7 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	background-color:grey;
 }
 #line{
 	background-color:black;
@@ -12,7 +13,7 @@
 	height:2px;
 	animation:rotate 1s linear infinite;
 }
-@keyframes transform{
+@keyframes rotate{
 	from
 	{
 	transform:rotate(0deg);
