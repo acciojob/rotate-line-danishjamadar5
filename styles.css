@@ -10,7 +10,7 @@
 	background-color:black;
 	width:200px;
 	height:2px;
-/* 	animation:rotate 1s linear; */
+	animation:rotate 1s linear infinite;
 }
 @keyframes transform{
 	from
